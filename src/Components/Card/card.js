@@ -7,10 +7,11 @@ import { HeadingComponent1,
          HeadingComponent5,
          HeadingComponent6,
           } from "../Headings/heading.js";
- const CardComponent = () => {
+import { ListParent } from "../ListComponent/list.js";          
+export  const CardComponent = () => {
     return (
         <div>
-            <h1>vinay</h1>
+      <h1>CARD COMPONENT</h1>
       <ButtonComponent />
       <h1>vinay</h1>
       <ImageComponent />
@@ -20,7 +21,7 @@ import { HeadingComponent1,
       <HeadingComponent4 />
       <HeadingComponent5 />
       <HeadingComponent6 />
+      <ListParent />
         </div>
     );
 }
-export default CardComponent

@@ -1,10 +1,13 @@
-// import {CardComponent} from "./Components/Card/card"
-import {TableComponent} from "./Components/TableComponent/table"
+//  import {CardComponent} from "./Components/Card/card"
+// import {TableComponent} from "./Components/TableComponent/table"
+// import {ListParent} from "./Components/ListComponent/list"
 const App = () => {
   return(
     <div>
       <h1>vinay</h1>
-      <TableComponent />     
+      {/* <ListParent /> */}
+      {/* <CardComponent />      */}
+      
     </div>
     
   );
